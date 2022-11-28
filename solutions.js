@@ -21,3 +21,39 @@
  * concat
  */
 
+function isTrue(x){
+    return x ===true;
+}
+function isFalse(x){
+    return x===false;
+}
+function isEven(input){
+    if(typeof input ==='boolean'){
+        return false;
+    }
+    else  {
+        return input % 2 === 0;
+    }
+}
+function concat(x,y){
+    return  x.toString() + y.toString()
+
+}
+function addOne(x){
+    return x*1+1
+}
+function isEqual(x,y){
+    return x==y;
+}
+function isIdentical(x,y){
+    return x===y;
+}
+function or(x,y){
+    return x||y;
+}
+function and(x,y){
+    return x && y;
+}
+function not(x){
+    return !x;
+}
