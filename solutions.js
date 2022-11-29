@@ -42,6 +42,7 @@ function concat(x,y){
 function addOne(x){
     return x*1+1
 }
+// parseFloat(x)+1 parseFloat() turns string number into number
 function isEqual(x,y){
     return x==y;
 }
