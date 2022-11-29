@@ -35,6 +35,7 @@ function isEven(input){
         return input % 2 === 0;
     }
 }
+//could use parseInt() or parseFloat() over the input to make false not show up as 0.
 function concat(x,y){
     return  x.toString() + y.toString()
 
